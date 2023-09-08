@@ -31,8 +31,8 @@ if (newFormat == 1){
     dateUpdate.textContent = "Sunday";
 }
 let dateTime = document.getElementById("dateTime");
-dateTime.textContent = `${dateTimeObject.hours}: ${dateTimeObject.minutes}: ${dateTimeObject.seconds}`
+dateTime.textContent = `${dateTimeObject.milliseconds}`
 }
 currentTime();
 
-setInterval(currentTime, 1000);
+setInterval(currentTime);
