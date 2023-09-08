@@ -2,20 +2,25 @@ body{
     display: grid;
     text-align: center;
     place-items: center;
+    align-items: center;
     justify-content: center;
-    background-color: #cccc00;
     font-family: 'Leckerli One', cursive;
     color: #1a0d00;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: black;
+    min-height: 100%;
+    background-color: #cccc00;
 }
 h1{
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-size: 3rem;
 }
 h2{
     margin-bottom: 4rem;
+}
+a{
+    color: #5e3f02;
 }
 img{
     margin-bottom: 1rem;
@@ -28,4 +33,5 @@ img{
 #dateTime{
     margin-top: 2rem;
 }
+
 

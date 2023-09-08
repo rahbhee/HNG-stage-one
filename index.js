@@ -31,7 +31,7 @@ if (newFormat == 1){
     dateUpdate.textContent = "Sunday";
 }
 let dateTime = document.getElementById("dateTime");
-dateTime.textContent = `${dateTimeObject.hours + "0"}: ${dateTimeObject.minutes}: ${dateTimeObject.seconds}`
+dateTime.textContent = `${dateTimeObject.hours}: ${dateTimeObject.minutes}: ${dateTimeObject.seconds}`
 }
 currentTime();
 
